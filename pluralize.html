@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function pluralize(word) {
+        return word + "s";
+      }
+     
+      var userword = prompt("Word please: ");
+       if (userword === "moose" || userword === "Moose"){
+      console.log ("Moose");
+    } else if (userword === "automaton" || userword ==="Automaton"){
+      console.log ("Automata");
+    } else if (userword === "mouse" || userword === "Mouse"){
+      console.log ("Mice");
+    }
+else {
+        console.log(pluralize(userword));
+      }
+
+      
+    </script>
+  </body>
+</html>
